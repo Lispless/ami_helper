@@ -15,7 +15,21 @@
   <div id="renderer"></div>
 
   <div id="tabulation">
-    <p>Lorem ipsum...</p>
+    <p>R 000 (0, 6): Magic circle 6</p>
+    <p>R 001 (6, 12): inc6</p>
+    <p>R 002 (12, 18): (inc, sc)6</p>
+    <p>R 003 (18, x): sc, sc, sc, |</p>
+    <p>The first three lines are what the tabulations will look like when
+      a round is completed.  The fourth line is what it will look like when
+      a round is currently being worked on (sc2 vs sc, sc) (the pipe
+      represents the cursor).
+    </p>
+  </div>
+
+  <div id="statistics-bar">
+    <p>Current stitch: 3</p>
+    <p>Stitches left: 15</p>
+    <p>Total stitches: 18</p>
   </div>
 
   <div class="controls">
@@ -23,6 +37,7 @@
     <button id="increment-selector">Inc/Dec</button>
     <button id="loop-selector">Front/Back Loop Only</button>
     <button id="undo">Undo</button>
+    <button>Five</button>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
