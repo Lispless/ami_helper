@@ -74,6 +74,23 @@ body {
   background-color: green;
 }
 
+@keyframes pulse {
+  from {
+
+  }
+  to {
+    background-color: aqua;
+  }
+}
+
+.bar-current {
+  animation-name: pulse;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease;
+}
+
 #statistics-bar {
   display: flex;
   flex-direction: row;
