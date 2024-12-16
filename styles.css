@@ -51,6 +51,29 @@ body {
   font-family: verdana;
 }
 
+#bar-tracker {
+  background-color: white;
+}
+
+#bar-tracker > ul {
+  display: inline-flex;
+  list-style: none;
+  margin: 4px;
+  padding: 0;
+}
+
+.bar-item {
+  border: 1px outset black;
+  border-radius: 10px;
+  margin: 0 2px;
+  aspect-ratio: 1.7;
+  height: 10px;
+}
+
+.bar-completed {
+  background-color: green;
+}
+
 #statistics-bar {
   display: flex;
   flex-direction: row;
